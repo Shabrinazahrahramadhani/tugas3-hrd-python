@@ -1,6 +1,6 @@
 import requests
 
-BASE_URL = "http://localhost:8000"
+BASE_URL = "http://localhost:9000"
 
 def rupiah(n):
     return f"Rp {int(n):,}".replace(",", ".")
